@@ -287,8 +287,8 @@ async def on_message(message):
 
 
 keep_alive()
-
-client.run(os.environ['BOT_TOKEN'])
+bot_token = "OTExMTkwODk1MzIyMzM3MzAx.YZdypg.IEWKgOTJ82vtk3RRWcJjTuGEmZs"
+client.run(bot_token)
 
 
 
